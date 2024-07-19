@@ -40,4 +40,3 @@ function clearList() {
 }
 document.getElementById("clear").addEventListener("click", clearList);
 document.getElementById("addTaskButton").addEventListener("click", addToDo);
-// window.onload
