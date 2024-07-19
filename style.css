@@ -3,15 +3,17 @@
   padding: 0;
   margin: 0;
 }
-div{
-  border: 1px solid black;
-}
+
 .main{
   width: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-block: 20px;
+  border: 1px solid green;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 .heading{
   padding-block: 20px;
@@ -41,6 +43,15 @@ div{
   border: none;
   border-radius: 5px;
 }
+#clear{
+  padding-block: 10px; 
+  padding-inline: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
 .add-to-do button:hover{
   background-color: #45a049;
 }
@@ -50,10 +61,30 @@ div{
   background-color: honeydew;
   border-radius: 5px;
 }
+.donebtn{
+  color: white;
+  background-color: black;
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: none;
+}
+.removebtn{
+  color: white;
+  background-color: red;
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-radius: 5px;
+  border: none;
+}
 #taskList{
   list-style: none;
-  padding-block: 10px;
+ 
 }
 #taskList li{
-  padding-block: 5px;
+  padding-block: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
