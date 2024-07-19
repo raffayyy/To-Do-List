@@ -3,3 +3,57 @@
   padding: 0;
   margin: 0;
 }
+div{
+  border: 1px solid black;
+}
+.main{
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading{
+  padding-block: 20px;
+}
+.add-to-do{
+  padding-block: 10px;
+  padding-inline: 20px;
+  margin-block: 10px;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-to-do input{
+  padding-block: 10px; 
+  padding-inline: 20px;
+  margin-right: 5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.add-to-do button{
+  padding-block: 10px; 
+  padding-inline: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.add-to-do button:hover{
+  background-color: #45a049;
+}
+.content{
+  width: 400px;
+  padding-inline: 20px;
+  background-color: honeydew;
+  border-radius: 5px;
+}
+#taskList{
+  list-style: none;
+  padding-block: 10px;
+}
+#taskList li{
+  padding-block: 5px;
+}
